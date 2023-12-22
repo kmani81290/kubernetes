@@ -1,1 +1,8 @@
-1
+yaml file 
+
+apiverison:
+kind:
+metadata:
+spec:
+
+4 important mandatory things
