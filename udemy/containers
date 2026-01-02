@@ -1,0 +1,17 @@
+k8s - 
+container orchestation - orchestrate containers different running containers
+
+k86 architecture 
+
+Node - application running space that could phsical or virtual worker node
+cluster - set of nodes  if node fail sharing between us
+master - manage monitor to move fail and move works, node with master will be there
+
+components- 
+  API Server --> front end of k86 , user managment, cmd line interface
+  etcd --> distributer, reliable key value store used by k86  store all data used to manage the cluster 
+  Kublet --> agent to run each node in cluster, its responsible for making sure  that the containers are running on the node has expected
+  Container Run Time  -- software using containers like docker, but different cases are there
+  Contrller - make decission of create new containers,   brain behind, 
+  Scheduler --> distributing the works accross multiple nodes,
+  
